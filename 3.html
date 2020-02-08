@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>3</title>
+</head>
+
+<body>
+	
+<h1>我的第一段 JavaScript</h1>
+<p>请输入密码并按确认键。如果输入值不是数字，浏览器会弹出提示框。</p>
+<input id="demo" type="text">
+<script>
+function myFunction()
+{
+	var x=document.getElementById("demo").value;
+	if(x==""||isNaN(x))
+	{
+		alert("输入错误");
+	}
+}
+</script>
+<button type="button" onclick="myFunction()">确认</button>
+	
+</body>
+</html>
